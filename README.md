@@ -42,7 +42,7 @@ The API is hosted on [Render](https://render.com) and the client on [Vercel](htt
 
 ### Client — Vercel
 
-1. Import the repository on [Vercel](https://vercel.com/new).
+1. Import the repository on [Vercel](https://split-ease-bb7h.vercel.app/login).
 2. Set **Root Directory** to `client`. Vercel detects Vite automatically.
 3. Under **Environment Variables**, add `VITE_API_URL` pointing to your Render service URL with the `/api` suffix (e.g. `https://splitease-api.onrender.com/api`).
 4. Deploy. `client/vercel.json` handles the SPA rewrite so React Router routes work on hard refresh.
