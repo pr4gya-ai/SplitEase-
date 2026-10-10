@@ -17,6 +17,7 @@ git clone <repo-url> && cd splitease
 cd server && npm install && cp .env.example .env   # fill MONGO_URI and JWT_SECRET
 # GEMINI_API_KEY is optional: without it, natural-language entry uses a rule-based parser
 cd ../client && npm install
+cd server && npm run seed      # optional: seed the database with sample data
 ```
 
 ## How to Run
@@ -24,6 +25,7 @@ cd ../client && npm install
 cd server && npm run dev     # API on :5000
 cd client && npm run dev     # UI on :5173
 cd server && npm test        # unit tests
+cd server && npm run seed     # seed sample data into the database
 ```
 
 ## AI Tool Used
